@@ -1,0 +1,43 @@
+@font-face {
+  font-family: teletext;
+  src: url(MODE7GX3.TTF);
+}
+
+body {
+  background-color: black;
+}
+
+th,
+tr,
+td {
+  font-family: teletext;
+  color: white;
+  border: none;
+}
+
+th {
+  background-color: blue;
+  padding: 10px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+a {
+  color: limegreen;
+}
